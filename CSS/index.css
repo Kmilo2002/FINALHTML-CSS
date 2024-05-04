@@ -35,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
-  background-color: rgb(209, 252, 245);
+  background-color: rgb(0, 0, 0);
   width: 100%;
   overflow: auto;
   margin-bottom: 10px;
@@ -46,25 +46,13 @@ header {
 }
 
 .Logo {
-  width: 65px;
+  width: 250px;
   height: 50px;
   margin-right: 10px;
 }
 
-h1 {
-  font-size: 35px;
-  color: black;
-  text-decoration: none;
-  margin-right: 10px;
-  margin-top: 5px;
-  text-align: left;
-  -webkit-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
 nav{
-  padding-top: 10px ;
+  padding-top: 17.5px ;
 }
 
 ul li {
@@ -73,10 +61,10 @@ ul li {
 }
 
 ul a {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   padding: 10px 15px;
   margin: 2px;
@@ -87,8 +75,8 @@ ul a {
 }
 
 ul a:hover {
-  color: aliceblue;
-  background-color: rgb(32, 32, 151);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 115, 0);
   border-radius: 50px;
 }
 
