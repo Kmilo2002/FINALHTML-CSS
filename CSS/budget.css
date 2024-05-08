@@ -79,6 +79,47 @@
     background-color: rgb(255, 115, 0);
     border-radius: 50px;
   }
+
+  legend {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .Info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .Info div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .Lbl label {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+    height: 25px;
+  }
+  
+  .Inn input{
+    margin: 2px;
+    width: 200px;
+    height: 25px;
+  }
+  
+  .form-control,
+  .Selection {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2px;
+    width: 195px;
+    height: 25px;
+    background-color: rgb(130, 247, 235);
+  }
   
   footer {
     font-size: 18px;

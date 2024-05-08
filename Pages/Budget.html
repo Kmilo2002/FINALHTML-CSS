@@ -24,6 +24,49 @@
       </div>
     </header>
     <h1>Presupuestos</h1>
+    <form action="./Greetings.html">
+      <fieldset>
+        <legend>Solicitar Presupuesto:</legend>
+        <div class="Info">
+          <div class="Lbl">
+          <label for="Name">Nombre Completo(*):</label>
+          <label for="Phone">Teléfono(*):</label>
+          <label for="Email">Correo Electrónico(*):</label>
+        </div>
+        <div class="Inn">
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="Nombre"
+            minlength="5"
+            maxlength="40"
+          />
+          <input
+            type="number"
+            id="phone"
+            required
+            placeholder="Teléfono"
+            minlength="9"
+            maxlength="11"
+          />
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Correo Electrónico"
+          />
+        </div>
+      </div>
+        <div>
+          <p>Déjanos un mensaje:</p>
+          <textarea name="" id="" cols="50" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Enviar" class="Submit" />
+        <input type="reset" value="Borrar" class="Reset" />
+      </form>
+      </fieldset>
+    </form>
     <footer class="Footer">
       <p>Copyright by Kmilo&copy;</p>
     </footer>
